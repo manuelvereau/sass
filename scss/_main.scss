@@ -1,0 +1,27 @@
+main{
+    height: 80vh;
+    background-image: url(../img/fondomenu.jpg);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(6 , 1fr);
+
+        h1{ 
+
+            color: white;
+            grid-column: 2 / 4;
+            grid-row: 2;
+            font-size: 5em;
+            font-family: Georgia
+        }
+        p{
+            grid-column: 2 / 4;
+            background-color: rgb(51, 14, 136);
+            grid-row: 4 ;
+            font-size: 1em;
+            color: white;
+        }
+
+        
+}

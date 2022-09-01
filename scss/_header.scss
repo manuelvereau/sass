@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(28, 20, 131);
+    ul{
+        li{
+            width: 90%;
+            margin: auto;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+                a{
+                    color: white;
+                }
+        }
+    }
+}
